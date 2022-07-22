@@ -47,9 +47,18 @@ body {
     height: 100%;
     object-fit: cover;
     object-position: center;
+    cursor: pointer;
 }
 
-.card__img:hover {
+/* .card__img:hover {
+    height: 100%;
+    width: 100%;
+    border: none;
+    transform: unset;
+    border-radius: unset;
+} */
+
+.active {
     height: 100%;
     width: 100%;
     border: none;
@@ -59,7 +68,7 @@ body {
 }
 
 .card h2 {
-    margin-top: 35px;
+    margin-top: 40px;
 }
 
 .card p {
@@ -70,7 +79,7 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin: 20px 0;
+    margin: 25px 0 20px 0;
     font-size: 18px;
     padding: 0 30px;
     

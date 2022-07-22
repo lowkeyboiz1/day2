@@ -32,7 +32,18 @@
 
 
 
+<script>
+    var cardImg = document.querySelector('.card__img')
+    var card = document.querySelector('.card')
+    cardImg.onclick = () => cardImg.classList.add('active');
+    card.parentElement.addEventListener('click' ,function (event) {
+        cardImg.classList.remove('active');
+    });
+    card.onclick = function(e) {
+        e.stopPropagation();
+    }
 
+</script>
 </body>
 
 </html>
