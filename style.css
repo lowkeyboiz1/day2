@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400&family=Roboto:wght@100&display=swap');
+
 :root {
-    --primary-color :#f2726a;
+    --primary-color: #f2726a;
 }
 
 * {
@@ -12,18 +13,18 @@
 
 body {
     font-family: 'Poppins', sans-serif;
-    background: linear-gradient(45deg, #00853e, #50c878);
+    background: linear-gradient(45deg, #c2c8c5, #ddddda);
     display: flex;
     height: 100vh;
     justify-content: center;
     align-items: center;
-    
+
 }
 
 .card {
     width: 300px;
     height: 400px;
-    background-color: #242628;
+    background-color: #4a707a;
     text-align: center;
     color: white;
     border-radius: 10px;
@@ -40,9 +41,9 @@ body {
     overflow: hidden;
     transition: 0.4s ease;
     transform-origin: top center;
-}   
+}
 
-.card__img img{
+.card__img img {
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -82,8 +83,9 @@ body {
     margin: 25px 0 20px 0;
     font-size: 18px;
     padding: 0 30px;
-    
+
 }
+
 .card__social i {
     transition: 0.3s;
 }
@@ -94,7 +96,7 @@ body {
 
 .card__social a {
     color: white;
-}   
+}
 
 button {
     color: white;
@@ -112,4 +114,12 @@ button {
 
 button:hover {
     background-color: var(--primary-color);
+}
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #fff;
 }
