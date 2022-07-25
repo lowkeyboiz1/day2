@@ -13,7 +13,7 @@
 
 body {
     font-family: 'Poppins', sans-serif;
-    background: linear-gradient(45deg, #c2c8c5, #ddddda);
+    background: linear-gradient(180deg, #FFDEE9, #B5FFFC);
     display: flex;
     height: 100vh;
     justify-content: center;
@@ -24,7 +24,7 @@ body {
 .card {
     width: 300px;
     height: 400px;
-    background-color: #4a707a;
+    background-color: rgba(61, 61, 61, 1);
     text-align: center;
     color: white;
     border-radius: 10px;
@@ -115,6 +115,7 @@ button {
 button:hover {
     background-color: var(--primary-color);
 }
+
 a {
     color: #fff;
     text-decoration: none;
